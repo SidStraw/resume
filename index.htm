@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>要吃什麼？</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/function.js"></script>
+</head>
+
+<body>
+    <div data-role="page" data-theme="a">
+        <div data-role="header" data-theme="a" data-position="fixed">
+            <h3>想不到要吃什麼</h3>
+        </div>
+        <div rele="main" class="ui-content">
+            <div class="frame">
+                <div id="ran"></div>
+                <!-- 機會命運按鈕 -->
+                <div data-role="popup" id="popup" data-dismissible="false">
+                    <p>請耐心等待冷卻喔</p>
+                    <a data-rel="back" data-role="button" data-icon="delete" data-iconpos="notext" class="ui-btn-right"></a>
+                </div>
+                <!-- POPUP視窗 -->
+                <div class="fr" id="t">冷卻時間：</div>
+                <div class="clearfix"></div>
+                <input type="text" name="output" id="output">
+            </div>
+        </div>
+        <!-- <div data-role=footer data-theme="a" data-position="fixed">
+
+            <div data-role="navbar" class="nav-glyphish-example">
+                <ul>
+                    <li>
+                        <a href="#" id="chat" data-icon="custom">Chat</a>
+                    </li>
+                    <li>
+                        <a href="#" id="email" data-icon="custom">Email</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div> -->
+        <div id="fb-icon">
+            <p>線上客服</p>
+        </div>
+
+    </div>
+
+
+
+
+</body>
+
+</html>

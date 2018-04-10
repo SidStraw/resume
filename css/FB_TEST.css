@@ -1,0 +1,32 @@
+#fb-icon{
+    position: fixed;
+    bottom: 0px;
+    left: 20px;
+    /* width: 50px; */
+    line-height:50px;
+    height: 50px;
+    padding-left: 55px ;
+    padding-right: 10px;
+    background: url("../img/icons/sample-02-redo.png") 13% 50% no-repeat rgb(78, 105, 162);
+    border-radius: 10px 10px 0 0;
+    color: seashell
+  }
+#fb-icon p{
+  font-size: 18px;
+  letter-spacing: 3px;
+  font-weight:bold;
+}
+
+#fb-icon:hover{
+  width: 50px;
+  bottom: 20px;
+  padding: 0px ;
+  border-radius: 50%;
+  background: url("../img/icons/sample-02-redo.png") 50% 50% no-repeat rgb(78, 105, 162);
+}
+
+#fb-icon:hover p{
+  display: none;
+  padding-left: 10px ;
+  border-radius: 50%;
+}

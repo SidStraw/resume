@@ -1,0 +1,56 @@
+/* jq mobile下方導航列 */
+
+.nav-glyphish-example .ui-btn {
+    padding-top: 40px !important;
+}
+
+.nav-glyphish-example .ui-btn:after {
+    margin-left: -15px !important;
+    width: 30px!important;
+    height: 30px!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+#chat:after {
+    background: url("../img/icons/sample-02-redo.png") 50% 50% no-repeat;
+    background-size: 24px 22px;
+}
+
+#email:after {
+    background: url("../img/icons/sample-02-redo.png") 50% 50% no-repeat;
+    background-size: 24px 22px;
+}
+
+/* jq mobile下方導航列 */
+
+.frame {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.fr {
+    float: right;
+}
+.clearfix{
+    clear: both;
+}
+
+#ran {
+    background: url(" http://i.gbc.tw/2015/event/20150600_fate/images/title.png") 50% 50% no-repeat;
+    background-size: contain;
+    height: 30vh;
+    /* width: 100%; */
+}
+
+
+#output{
+    background-color: aliceblue;
+    transition: all 3s;
+  }
+  #output.active{
+      background-color:#d66767;
+  }
