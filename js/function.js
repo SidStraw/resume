@@ -3,6 +3,12 @@ var zoom = 10;
 var shop = ['鄉味', '馬路益', '阿根', '眷村麵食', '讚哥'];
 
 $(document).ready(function () {
+    $('#mytimeline').verticalTimeline({
+        startLeft: true,
+        alternate: true,
+        animate: "fade",
+        arrows: true
+    });
 
 
     $('#ran').click(function (e) {
