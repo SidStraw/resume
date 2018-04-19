@@ -1,56 +1,105 @@
-/* jq mobile下方導航列 */
-
-.nav-glyphish-example .ui-btn {
-    padding-top: 40px !important;
+h1 {
+    font-size: 3em;
+    color: #d66767;
 }
 
-.nav-glyphish-example .ui-btn:after {
-    margin-left: -15px !important;
-    width: 30px!important;
-    height: 30px!important;
-    -webkit-border-radius: 0 !important;
-    border-radius: 0 !important;
-    -webkit-box-shadow: none!important;
-    -moz-box-shadow: none!important;
-    box-shadow: none!important;
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
 }
 
-#chat:after {
-    background: url("../img/icons/sample-02-redo.png") 50% 50% no-repeat;
-    background-size: 24px 22px;
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
-#email:after {
-    background: url("../img/icons/sample-02-redo.png") 50% 50% no-repeat;
-    background-size: 24px 22px;
-}
+ol {
+    list-style: square;
+  }
 
-/* jq mobile下方導航列 */
-
-.frame {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.fr {
+.float-r {
     float: right;
 }
-.clearfix{
+
+.clearfix {
     clear: both;
 }
 
-#ran {
-    background: url(" http://i.gbc.tw/2015/event/20150600_fate/images/title.png") 50% 50% no-repeat;
-    background-size: contain;
-    height: 30vh;
-    /* width: 100%; */
+#menu {
+    width: 250px;
+    height: 100%;
+    background: #d66767;
+    position: fixed;
+
+}
+
+#menu img{
+    border-radius: 50%;
+    border: tan solid 8px;
+    width: 150px;
+    position: relative;
+    top: 15%;
+    display: block;
+    margin: 0 auto;
+}
+
+#menu ul{
+    text-align: center;
+    width: 150px;
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+}
+
+#menu ul li{
+    margin-bottom: 20px;
 }
 
 
-#output{
-    background-color: aliceblue;
-    transition: all 3s;
-  }
-  #output.active{
-      background-color:#d66767;
-  }
+.container {
+    margin-left: 250px;
+    padding: 10vh;
+}
+
+.main {
+    padding: 48px;
+    border-bottom: tan groove;
+}
+
+.content {
+    padding: 48px;
+}
+
+.section {
+    position: relative;
+}
+
+.period {
+    position: absolute;
+    display: block;
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+    right: 0px;
+    top: 0px;
+    background-color: #d66767;
+    color: beige;
+}
+
+
+
+.content .section {
+    margin-bottom: 30px;
+}
+
+
+
+
+@media(max-width: 700px) {
+    #menu{
+        display: none;
+    }
+    .container {
+        margin-left: 0px;
+    }
+}
